@@ -3,10 +3,10 @@ public class CS210L4	{
 	public static void main(String args[] ) throws Exception	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a positive integer and the program will determine the difference between the 2 closest prime numbers: ");
-	    int num = sc.nextInt();
-	    int prime1 = 0;
-	    int prime2 = 0;
-	    for(int a = num+1;; a++)	{
+	    	int num = sc.nextInt();
+	    	int prime1 = 0;
+	    	int prime2 = 0;
+	    	for(int a = num+1;; a++)	{
 	    	if(primeCheck(a))	{
 	    		prime1 = a;
 	             break;
